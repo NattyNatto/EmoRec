@@ -1,0 +1,128 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
+MERGED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:3:11-55
+	android:versionName
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:5:11-36
+		INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml
+		INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:4:11-34
+		INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml
+		INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml
+uses-feature#android.hardware.microphone
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:7:5-9:39
+	android:required
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:9:13-37
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:8:13-55
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:12:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:16:5-64
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:16:22-62
+uses-sdk
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
+INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
+INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
+MERGED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:7:5-9:41
+MERGED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
+INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
+	android:targetSdkVersion
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:20:13-42
+		INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml
+		INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:19:13-38
+		INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml
+		INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml
+application
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:22:5-41:19
+MERGED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:11:5-17:19
+MERGED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:11:5-17:19
+	android:label
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:25:13-45
+	android:icon
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:24:13-42
+	android:allowBackup
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:23:13-39
+	android:theme
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:26:13-44
+service#com.sinch.android.rtc.sample.video.SinchService
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:27:9-57
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:27:18-46
+activity#com.sinch.android.rtc.sample.video.LoginActivity
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:28:9-36:20
+	android:screenOrientation
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:31:17-53
+	android:label
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:30:17-49
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:29:17-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:33:17-68
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:34:27-74
+activity#com.sinch.android.rtc.sample.video.CallScreenActivity
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:37:9-55
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:37:19-53
+activity#com.sinch.android.rtc.sample.video.IncomingCallScreenActivity
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:38:9-39:45
+	android:screenOrientation
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:38:62-98
+	android:noHistory
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:39:19-43
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:38:19-61
+activity#com.sinch.android.rtc.sample.video.PlaceCallActivity
+ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:40:9-91
+	android:screenOrientation
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:40:53-89
+	android:name
+		ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:40:19-52
+service#com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService
+ADDED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:12:9-16:19
+	android:name
+		ADDED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:12:18-97
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:13:13-15:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:14:17-80
+	android:name
+		ADDED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:14:25-77
