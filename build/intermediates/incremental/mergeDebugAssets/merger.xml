@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/assets"/><source path="/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/lalida/Thesis/Android/EmoRecRepo/assets"/><source path="/Users/lalida/Thesis/Android/EmoRecRepo/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/lalida/Thesis/Android/EmoRecRepo/src/debug/assets"/></dataSet></merger>
