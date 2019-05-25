@@ -3,6 +3,7 @@ manifest
 ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
+MERGED from [libwebrtc_19324.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/libwebrtc_19324.aar/d59ca9bfdb259c220b9b323cb5052c75/AndroidManifest.xml:11:1-14:12
 MERGED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:2:1-19:12
 INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:2:1-43:12
@@ -52,6 +53,8 @@ uses-sdk
 ADDED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
 INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
 INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
+MERGED from [libwebrtc_19324.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/libwebrtc_19324.aar/d59ca9bfdb259c220b9b323cb5052c75/AndroidManifest.xml:13:3-72
+MERGED from [libwebrtc_19324.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/libwebrtc_19324.aar/d59ca9bfdb259c220b9b323cb5052c75/AndroidManifest.xml:13:3-72
 MERGED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:7:5-9:41
 MERGED from [sinch-android-rtc-3.12.9.aar] /Users/lalida/.gradle/caches/transforms-1/files-1.1/sinch-android-rtc-3.12.9.aar/a2ee4b960bbe6a9a8f351da33e646b77/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/lalida/Thesis/Android/EmoRecRepo/AndroidManifest.xml:18:5-20:44
