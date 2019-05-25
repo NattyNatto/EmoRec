@@ -1,106 +1,106 @@
 [
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable_inputbox.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable/inputbox.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/layout_login2.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/layout/login2.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/layout_callscreen.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/layout/callscreen.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable_button_accept.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable/button_accept.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/raw_progress_tone.wav.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/raw/progress_tone.wav"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-xhdpi_callbg.9.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-xhdpi/callbg.9.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable_button_decline.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable/button_decline.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/layout_login.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/layout/login.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_small_green_normal.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/small_green_normal.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_small_red_normal.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/small_red_normal.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable_button_login.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable/button_login.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_big_red_pressed.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/big_red_pressed.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/layout_incoming.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/layout/incoming.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/layout_callscreen.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/layout/callscreen.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/layout_login2.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/layout/login2.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/layout/main.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable_button_end.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable/button_end.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable_inputbox.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable/inputbox.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/layout_login.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/layout/login.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_login_normal.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/login_normal.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable_button_call.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable/button_call.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable_button_decline.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable/button_decline.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-xhdpi_callbg.9.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-xhdpi/callbg.9.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_small_green_pressed.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/small_green_pressed.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_call_pressed.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/call_pressed.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/raw_progress_tone.wav.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/raw/progress_tone.wav"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_big_red_pressed.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/big_red_pressed.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_login_pressed.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/login_pressed.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/layout_main.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/layout/main.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable_button_login.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable/button_login.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_small_red_normal.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/small_red_normal.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable_button_call.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable/button_call.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_big_red_normal.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/big_red_normal.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/raw_phone_loud1.mp3.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/raw/phone_loud1.mp3"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_small_red_pressed.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/small_red_pressed.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_call_pressed.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/call_pressed.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_login_pressed.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/login_pressed.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_small_red_pressed.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/small_red_pressed.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_call_normal.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/call_normal.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_big_red_normal.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/big_red_normal.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/icon.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable_button_end.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable/button_end.xml"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_small_green_pressed.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/small_green_pressed.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/icon.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-hdpi_login_normal.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-hdpi/login_normal.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_small_green_normal.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/small_green_normal.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable-xhdpi_startbg.9.png.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable-xhdpi/startbg.9.png"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-xhdpi_startbg.9.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-xhdpi/startbg.9.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/drawable_button_accept.xml.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/drawable/button_accept.xml"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/drawable-hdpi_call_normal.png.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/drawable-hdpi/call_normal.png"
     },
     {
-        "merged": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/res/merged/debug/raw_phone_loud1.mp3.flat",
-        "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/raw/phone_loud1.mp3"
+        "merged": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/res/merged/debug/layout_incoming.xml.flat",
+        "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/layout/incoming.xml"
     }
 ]

@@ -1,59 +1,56 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/values/strings.xml",
+                    "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/values/strings.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
                         "startOffsets": "56",
-                        "endColumns": "48",
-                        "endOffsets": "100"
+                        "endColumns": "43",
+                        "endOffsets": "95"
                     },
                     "to": {
                         "startLines": "5",
                         "startColumns": "4",
-                        "startOffsets": "194",
-                        "endColumns": "48",
-                        "endOffsets": "238"
+                        "startOffsets": "188",
+                        "endColumns": "43",
+                        "endOffsets": "227"
                     }
                 },
                 {
-                    "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/values/colors.xml",
+                    "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/values/styles.xml",
                     "from": {
-                        "startLines": "4,3,2",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,104,55",
-                        "endColumns": "43,45,48",
-                        "endOffsets": "189,145,99"
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "6,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "232,326",
+                        "endLines": "8,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "321,393"
+                    }
+                },
+                {
+                    "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2,-1,-1",
+                        "startColumns": "4,-1,-1",
+                        "startOffsets": "55,-1,-1",
+                        "endColumns": "42,-1,-1",
+                        "endOffsets": "93,-1,-1"
                     },
                     "to": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
-                        "startOffsets": "55,99,145",
-                        "endColumns": "43,45,48",
-                        "endOffsets": "94,140,189"
-                    }
-                },
-                {
-                    "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/values/styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,521",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,676"
-                    },
-                    "to": {
-                        "startLines": "6,13",
-                        "startColumns": "4,4",
-                        "startOffsets": "243,545",
-                        "endLines": "12,15",
-                        "endColumns": "12,12",
-                        "endOffsets": "540,700"
+                        "startOffsets": "55,98,142",
+                        "endColumns": "42,43,45",
+                        "endOffsets": "93,137,183"
                     }
                 }
             ]

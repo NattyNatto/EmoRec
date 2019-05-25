@@ -2,7 +2,6 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/startbg"
                 android:padding="0dip"
                 tools:context=".MakeCallActivity">
 
@@ -21,7 +20,7 @@
                 android:text="Enter recipient name"
                 android:textAllCaps="true"
                 android:id="@+id/textView" android:layout_gravity="center_horizontal"
-                android:textColor="@color/sinch_purple" android:textSize="20sp"/>
+                android:textColor="@color/emo_blue" android:textSize="20sp"/>
         <EditText
                 android:id="@+id/callName"
                 android:layout_width="match_parent"
@@ -29,7 +28,7 @@
                 android:layout_marginTop="8dp"
                 android:textSize="32sp"
                 android:padding="10dp"
-                android:textColor="@color/sinch_purple"
+                android:textColor="@color/emo_blue"
                 android:background="@drawable/inputbox" android:inputType="textNoSuggestions">
 
             <requestFocus/>
@@ -46,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:text="Logged in as: "
                 android:textAllCaps="true"
-                android:textColor="@color/sinch_purple"
+                android:textColor="@color/emo_blue"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 />
 
@@ -54,7 +53,7 @@
                 android:id="@+id/loggedInName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/sinch_purple"
+                android:textColor="@color/emo_blue"
                 android:text="Someone"
                 android:textAllCaps="true"
                 android:textAppearance="?android:attr/textAppearanceSmall"
@@ -86,7 +85,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/transparent"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/sinch_purple"
+                android:textColor="@color/emo_blue"
                 android:textAllCaps="true"
                 android:text="Stop service" android:layout_centerHorizontal="true"/>
 

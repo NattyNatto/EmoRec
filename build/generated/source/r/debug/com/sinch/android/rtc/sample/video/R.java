@@ -9,9 +9,9 @@ package com.sinch.android.rtc.sample.video;
 
 public final class R {
   public static final class color {
-    public static final int greyish=0x7f010000;
-    public static final int off_white=0x7f010001;
-    public static final int sinch_purple=0x7f010002;
+    public static final int emo_blue=0x7f010000;
+    public static final int greyish=0x7f010001;
+    public static final int off_white=0x7f010002;
   }
   public static final class drawable {
     public static final int big_red_normal=0x7f020000;

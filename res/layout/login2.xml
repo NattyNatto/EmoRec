@@ -13,7 +13,7 @@
         android:layout_marginTop="40dp"
         android:text="Enter your name"
         android:textAllCaps="true"
-        android:textColor="@color/sinch_purple"
+        android:textColor="@color/emo_blue"
         android:textSize="20sp" />
 
     <EditText
@@ -24,7 +24,7 @@
         android:background="@drawable/inputbox"
         android:inputType="textPersonName"
         android:padding="10dp"
-        android:textColor="@color/sinch_purple"
+        android:textColor="@color/emo_blue"
         android:textSize="32sp" />
 
     <Button
