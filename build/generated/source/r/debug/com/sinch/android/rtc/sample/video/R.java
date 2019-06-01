@@ -14,25 +14,32 @@ public final class R {
     public static final int off_white=0x7f010002;
   }
   public static final class drawable {
-    public static final int big_red_normal=0x7f020000;
-    public static final int big_red_pressed=0x7f020001;
-    public static final int button_accept=0x7f020002;
-    public static final int button_call=0x7f020003;
-    public static final int button_decline=0x7f020004;
-    public static final int button_end=0x7f020005;
-    public static final int button_login=0x7f020006;
-    public static final int call_normal=0x7f020007;
-    public static final int call_pressed=0x7f020008;
-    public static final int callbg=0x7f020009;
-    public static final int icon=0x7f02000a;
-    public static final int inputbox=0x7f02000b;
-    public static final int login_normal=0x7f02000c;
-    public static final int login_pressed=0x7f02000d;
-    public static final int small_green_normal=0x7f02000e;
-    public static final int small_green_pressed=0x7f02000f;
-    public static final int small_red_normal=0x7f020010;
-    public static final int small_red_pressed=0x7f020011;
-    public static final int startbg=0x7f020012;
+    public static final int angry=0x7f020000;
+    public static final int big_red_normal=0x7f020001;
+    public static final int big_red_pressed=0x7f020002;
+    public static final int button_accept=0x7f020003;
+    public static final int button_call=0x7f020004;
+    public static final int button_decline=0x7f020005;
+    public static final int button_end=0x7f020006;
+    public static final int button_login=0x7f020007;
+    public static final int call_normal=0x7f020008;
+    public static final int call_pressed=0x7f020009;
+    public static final int callbg=0x7f02000a;
+    public static final int disgust=0x7f02000b;
+    public static final int fear=0x7f02000c;
+    public static final int happiness=0x7f02000d;
+    public static final int icon=0x7f02000e;
+    public static final int inputbox=0x7f02000f;
+    public static final int login_normal=0x7f020010;
+    public static final int login_pressed=0x7f020011;
+    public static final int neutral=0x7f020012;
+    public static final int sad=0x7f020013;
+    public static final int small_green_normal=0x7f020014;
+    public static final int small_green_pressed=0x7f020015;
+    public static final int small_red_normal=0x7f020016;
+    public static final int small_red_pressed=0x7f020017;
+    public static final int startbg=0x7f020018;
+    public static final int surprised=0x7f020019;
   }
   public static final class id {
     public static final int answerButton=0x7f030000;

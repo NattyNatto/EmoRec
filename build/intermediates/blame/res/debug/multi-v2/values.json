@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/lalida/Thesis/Android/EmoRecRepo/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/values/strings.xml",
+                    "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/values/strings.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -21,29 +21,13 @@
                     }
                 },
                 {
-                    "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/values/styles.xml",
+                    "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/values/colors.xml",
                     "from": {
-                        "startLines": "-1,-1",
-                        "startColumns": "-1,-1",
-                        "startOffsets": "-1,-1"
-                    },
-                    "to": {
-                        "startLines": "6,9",
-                        "startColumns": "4,4",
-                        "startOffsets": "232,326",
-                        "endLines": "8,11",
-                        "endColumns": "12,12",
-                        "endOffsets": "321,393"
-                    }
-                },
-                {
-                    "source": "/Users/lalida/Thesis/Android/sinch-rtc-sample-video 3.8/res/values/colors.xml",
-                    "from": {
-                        "startLines": "2,-1,-1",
-                        "startColumns": "4,-1,-1",
-                        "startOffsets": "55,-1,-1",
-                        "endColumns": "42,-1,-1",
-                        "endOffsets": "93,-1,-1"
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,144,98",
+                        "endColumns": "42,43,45",
+                        "endOffsets": "93,183,139"
                     },
                     "to": {
                         "startLines": "2,3,4",
@@ -51,6 +35,25 @@
                         "startOffsets": "55,98,142",
                         "endColumns": "42,43,45",
                         "endOffsets": "93,137,183"
+                    }
+                },
+                {
+                    "source": "/Users/lalida/Thesis/Android/EmoRecRepo/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,521",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,676"
+                    },
+                    "to": {
+                        "startLines": "6,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "232,534",
+                        "endLines": "12,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "529,689"
                     }
                 }
             ]
