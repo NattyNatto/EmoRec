@@ -9,73 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="752d8acf-a49d-4788-9a64-cf351d825be3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_lalida__gradle_caches_transforms_1_files_1_1_sinch_android_rtc_3_12_9_aar_a13a48e30dbcf263159b7f022fcc2757_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/sinch/android/rtc/sample/video/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/sinch/android/rtc/sample/video/R.java" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values-v11.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values-v11.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values-v14.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values-v14.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/debug.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/output.json" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/output.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/manifests/instant-run/debug/output.json" afterPath="$PROJECT_DIR$/build/intermediates/manifests/instant-run/debug/output.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/debug/output.json" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/output.json" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_big_red_normal.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_big_red_normal.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_big_red_pressed.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_big_red_pressed.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_call_normal.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_call_normal.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_call_pressed.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_call_pressed.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_login_normal.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_login_normal.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_login_pressed.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_login_pressed.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_small_green_normal.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_small_green_normal.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_small_green_pressed.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_small_green_pressed.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_small_red_normal.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_small_red_normal.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_small_red_pressed.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_small_red_pressed.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_callbg.9.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_callbg.9.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_startbg.9.png.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_startbg.9.png.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_accept.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_accept.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_call.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_call.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_decline.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_decline.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_end.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_end.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_login.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_button_login.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_inputbox.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable_inputbox.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_callscreen.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_callscreen.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_incoming.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_incoming.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_login.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_login.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_login2.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_login2.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_main.xml.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_main.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/raw_phone_loud1.mp3.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/raw_phone_loud1.mp3.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/raw_progress_tone.wav.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/raw_progress_tone.wav.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/splits-support/debug/apk-list/apk-list.gson" afterPath="$PROJECT_DIR$/build/intermediates/splits-support/debug/apk-list/apk-list.gson" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
-      <change beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/res/drawable/angry.png" afterPath="$PROJECT_DIR$/res/drawable/angry.png" />
-      <change beforePath="$PROJECT_DIR$/res/drawable/disgust.png" afterPath="$PROJECT_DIR$/res/drawable/disgust.png" />
-      <change beforePath="$PROJECT_DIR$/res/drawable/fear.png" afterPath="$PROJECT_DIR$/res/drawable/fear.png" />
-      <change beforePath="$PROJECT_DIR$/res/drawable/happiness.png" afterPath="$PROJECT_DIR$/res/drawable/happiness.png" />
-      <change beforePath="$PROJECT_DIR$/res/drawable/neutral.png" afterPath="$PROJECT_DIR$/res/drawable/neutral.png" />
-      <change beforePath="$PROJECT_DIR$/res/drawable/sad.png" afterPath="$PROJECT_DIR$/res/drawable/sad.png" />
-      <change beforePath="$PROJECT_DIR$/res/drawable/surprised.png" afterPath="$PROJECT_DIR$/res/drawable/surprised.png" />
-      <change beforePath="$PROJECT_DIR$/sinch-rtc-sample-video 3.8.iml" afterPath="" />
-    </list>
+    <list default="true" id="752d8acf-a49d-4788-9a64-cf351d825be3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,8 +47,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="50" column="58" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="50" selection-end-column="58" />
+            <state relative-caret-position="233">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1602,6 +1536,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1617,7 +1552,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2059,8 +1994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="50" column="58" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="50" selection-end-column="58" />
+        <state relative-caret-position="233">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
