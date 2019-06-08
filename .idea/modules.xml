@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EmoRecRepo.iml" filepath="$PROJECT_DIR$/EmoRecRepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmoRec2.iml" filepath="$PROJECT_DIR$/EmoRec2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

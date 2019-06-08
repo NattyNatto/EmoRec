@@ -1,52 +1,27 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
 buildscript {
+    
     repositories {
-        mavenCentral()
-        jcenter()
         google()
+        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
     }
 }
-apply plugin: 'com.android.application'
 
-repositories {
-    mavenCentral()
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
 }
 
-android {
-    compileSdkVersion 19
-    buildToolsVersion '28.0.2'
-
-    defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 19
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled true
-            proguardFile getDefaultProguardFile('proguard-android.txt')
-            proguardFile 'proguard-project.txt'
-        }
-    }
-
-    sourceSets {
-        main {
-            manifest.srcFile 'AndroidManifest.xml'
-            java.srcDirs = ['src']
-            res.srcDirs = ['res']
-            assets.srcDirs = ['assets']
-            jniLibs.srcDirs = ['libs']
-        }
-    }
-
-}
-
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-//    compile files('libs/sinch-android-rtc-3.8.0-VIDEO-SNAPSHOT.jar1')
-    implementation files('libs/sinch-android-rtc-3.12.9.aar')
-    implementation 'com.squareup.okhttp3:okhttp:4.0.0-alpha01'
-    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
