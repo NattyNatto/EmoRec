@@ -33,6 +33,7 @@ public interface Api {
     @POST("emo/")
     Call<Result> emoRec(@Part MultipartBody.Part file);
 
+    @POST("emo/")
     Call<Result> emoClassify(@Body PostData postData);
 
 
