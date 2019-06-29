@@ -28,10 +28,11 @@
         android:layout_width="100dp"
         android:layout_height="100dp" />
 
-    <SurfaceView
+    <TextureView
         android:id="@+id/surface_view"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"/>
+        android:background="#aaa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
     <Button
         android:id="@+id/btnCamera"
         android:layout_width="wrap_content"
@@ -47,6 +48,8 @@
         android:id="@+id/ivTest"
         android:layout_width="200dp"
         android:layout_height="200dp" />
+
+
 
 
 </RelativeLayout>

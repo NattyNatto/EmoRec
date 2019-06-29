@@ -23,7 +23,7 @@ public class ServiceEmo {
 
         Api gerritAPI = retrofit.create(Api.class);
 
-        Call<Result> call = gerritAPI.emoClassify(postData);
+        Call<Result> call = (Call<Result>) gerritAPI.emoClassify(postData);
         call.enqueue(callback);
     }
 }

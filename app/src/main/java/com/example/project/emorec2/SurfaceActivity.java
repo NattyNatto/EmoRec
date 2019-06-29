@@ -2,11 +2,15 @@ package com.example.project.emorec2;
 
 
 import android.annotation.SuppressLint;
+import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.PixelFormat;
 import android.hardware.Camera;
 import android.os.Bundle;
+import android.provider.MediaStore;
+import android.media.*;
 import android.util.Base64;
 import android.util.Log;
 import android.util.SparseIntArray;
@@ -23,6 +27,7 @@ import android.widget.Toast;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.camera.core.AppConfig;
 import androidx.camera.core.CameraX;
 import androidx.camera.core.VideoCapture;
 import androidx.camera.core.VideoCaptureConfig;
@@ -30,10 +35,19 @@ import androidx.camera.core.VideoCaptureConfig;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import okhttp3.MediaType;
+import okhttp3.MultipartBody;
+import okhttp3.RequestBody;
 import retrofit2.Call;
+//import retrofit2.Callback;
 import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.http.Body;
+import retrofit2.http.Multipart;
 
 public class SurfaceActivity extends AppCompatActivity {
     private static final SparseIntArray ORIENTATION_MAP = new SparseIntArray();
@@ -44,10 +58,17 @@ public class SurfaceActivity extends AppCompatActivity {
     Camera camera1;
     SurfaceView surfaceView;
     SurfaceHolder surfaceHolder;
+    AudioRecord myAudioRecord;
     ImageView imgTest, imgEmo;
     public static boolean previewing = false;
-
+    ProgressDialog progressDialog;
+//    String mediaPath;
+//    String[] mediaColumns = {MediaStore.Video.Media._ID};
+//
     ServiceEmo serviceEmo = new ServiceEmo();
+
+//    AudioRecord myAudioRecorder = new AudioRecord();
+
 
     static {
         ORIENTATION_MAP.put(Surface.ROTATION_0, 0);
@@ -58,11 +79,15 @@ public class SurfaceActivity extends AppCompatActivity {
 
     VideoCapture videoCapture;
 
+    public SurfaceActivity() {
+    }
+
     @SuppressLint("RestrictedApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_surface);
+        progressDialog = new ProgressDialog(this);
 
 //        mSurfaceView = findViewById(R.id.surface_view);
 //
@@ -130,6 +155,17 @@ public class SurfaceActivity extends AppCompatActivity {
 
 
             }
+
+            private void releaseCamera(){
+                    if (camera1 != null) {
+                        camera1.setPreviewCallback(null);
+                        camera1.stopPreview();
+                        camera1.release();
+
+                        camera1 = null;
+                    }
+            }
+
         });
         surfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
         btnCapture = findViewById(R.id.btnCamera);
@@ -143,6 +179,8 @@ public class SurfaceActivity extends AppCompatActivity {
         if (!previewing) {
             obtainCamera();
         }
+
+
 
         btnCapture.setOnClickListener(new OnClickListener() {
 
@@ -219,79 +257,26 @@ public class SurfaceActivity extends AppCompatActivity {
                         }
                     });
                 }
+
+                private String convertBitmapToString(Bitmap bitmap) {
+                    ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+                    bitmap.compress(Bitmap.CompressFormat.JPEG, 100, outputStream);
+                    return Base64.encodeToString(outputStream.toByteArray(), Base64.NO_WRAP);
+                }
+
             };
         });
 
         startCamera(surfaceHolder);
     }
 
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        obtainCamera();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        releaseCamera();
-    }
-
-//    private void initView() {
-//        mSurfaceView.getHolder().addCallback(new SurfaceHolder.Callback() {
-//            @Override
-//            public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
-//            }
-//
-//            @Override
-//            public void surfaceCreated(SurfaceHolder holder) {
-//                startCamera(holder);
-//            }
-//
-//            @Override
-//            public void surfaceDestroyed(SurfaceHolder holder) {
-//            }
-//
-//        });
-//    }
-
-    private void startCamera(SurfaceHolder holder) {
-        Camera.Parameters camParameters = camera1.getParameters();
-
-        List<Camera.Size> sizes = camParameters.getSupportedPreviewSizes();
-        // Usually the highest quality
-        Camera.Size s = sizes.get(0);
-
-        camParameters.setPreviewSize(s.width, s.height);
-        camParameters.setWhiteBalance(Camera.Parameters.WHITE_BALANCE_AUTO);
-        if (camParameters.getSupportedFocusModes().contains(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE)) {
-            camParameters.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
-        }
-
-        camera1.setParameters(camParameters);
-
-        Camera.CameraInfo info = new Camera.CameraInfo();
-        Camera.getCameraInfo(0, info);
-
-        int orientation = getWindowManager().getDefaultDisplay().getRotation();
-        int degrees = (info.orientation - ORIENTATION_MAP.get(orientation) + 360) % 360;
-
-        camera1.setDisplayOrientation(degrees);
-
-        try {
-            camera1.setPreviewDisplay(holder);
-            camera1.startPreview();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    private void startCamera(SurfaceHolder surfaceHolder) {
     }
 
     private void obtainCamera() {
         if (camera1 == null) {
 //            mCamera = Camera.open(0);
+//                mCamera = openFrontFacingCameraGingerbread();
 //            camera1 = openFrontFacingCamera();
             camera1 = openFrontFacingCamera();//Camera.open();
             if (camera1 != null) {
@@ -328,6 +313,21 @@ public class SurfaceActivity extends AppCompatActivity {
         return cam;
     }
 
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        obtainCamera();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        releaseCamera();
+    }
+
     private void releaseCamera() {
         if (camera1 != null) {
             camera1.setPreviewCallback(null);
@@ -338,11 +338,76 @@ public class SurfaceActivity extends AppCompatActivity {
         }
     }
 
-    public static String convertBitmapToString(Bitmap bitmap) {
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, outputStream);
-        return Base64.encodeToString(outputStream.toByteArray(), Base64.NO_WRAP);
-    }
+    private void uploadFile(String filepath){
+        progressDialog.show();
+        //Map is used to multipart the file using okhttp3RequestBody
+        Retrofit retrofit = GetRetrofit.getRetrofitClient(this);
+        Api Api = retrofit.create(Api.class);
+
+        File file = new File(filepath);
+
+        //Parsing any Media type file
+        RequestBody fileRequestBody = RequestBody.create(MediaType.parse("*/*"),file);
+        MultipartBody.Part part = MultipartBody.Part.createFormData("emo",file.getName(),fileRequestBody);
+
+        Call call = Api.emoRec(part);
+        //       Call<Result> call = getResponse.upload("token",map);
+//              serviceEmo.classify(nnew retrofit2.Callback<Result>(){
+        call.enqueue(new retrofit2.Callback<Result>() {
+
+           public void onResponse(Call<Result> call, Response<Result> response) {
+               Result result = response.body();
+               if (result != null) {
+                   Toast.makeText(SurfaceActivity.this, "emo = " + response.toString(), Toast.LENGTH_LONG).show();
+
+                   if (response.body().result.equals("FE")) {
+
+                       imgEmo.setImageResource(R.drawable.fear);
+                   } else if (response.body().result.equals("HA")) {
+                       imgEmo.setImageResource(R.drawable.happiness);
+                   } else if (response.body().result.equals("SA")) {
+                       imgEmo.setImageResource(R.drawable.sad);
+                   } else if (response.body().result.equals("SU")) {
+                       imgEmo.setImageResource(R.drawable.surprised);
+                   } else if (response.body().result.equals("NE")) {
+                       imgEmo.setImageResource(R.drawable.neutral);
+                   } else if (response.body().result.equals("AN")) {
+                       imgEmo.setImageResource(R.drawable.angry);
+                   } else {
+                       imgEmo.setImageResource(R.drawable.disgust);
+                   }
+               } else {
+                   Log.v("Response", result.toString());
+               }
+
+           }
+
+           public void onFailure(Call <Result> call, Throwable t){
+
+           }
+       });
+
+   }
+
+
+//    private void initView() {
+//        mSurfaceView.getHolder().addCallback(new SurfaceHolder.Callback() {
+//            @Override
+//            public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+//            }
+//
+//            @Override
+//            public void surfaceCreated(SurfaceHolder holder) {
+//                startCamera(holder);
+//            }
+//
+//            @Override
+//            public void surfaceDestroyed(SurfaceHolder holder) {
+//            }
+//
+//        });
+//    }
+
 
 
 }
